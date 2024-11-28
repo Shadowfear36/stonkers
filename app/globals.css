@@ -7,6 +7,13 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: 'Snickers';
+  src: url('/public/fonts/SNICKERS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
