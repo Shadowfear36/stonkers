@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center h-screen w-screen overflow-hidden bg-[#573625] text-white">
       <Image
-        src="/images/stonkers.png"
+        src='/images/stonkers.png'
         alt="Stonkers Logo"
         width={500}
         height={300}
