@@ -15,9 +15,15 @@ export default function Home() {
       <h5 className="text-3xl sm:text-4xl md:text-5xl mb-4 text-center font-snickers">
         You're Not You When You're Broke!
       </h5>
-      <button className="px-3 py-1 sm:px-4 sm:py-2 text-lg sm:text-2xl md:text-4xl rounded-md hover:bg-[#e20d1b] border border-[#e20d1b] font-snickers">
-        Buy Stonkers
-      </button>
+      <a
+        href="https://pump.fun/coin/7wN2Gd5sqjqMW3vtn7PXG4SoARhA3qFmZ19zJXbfpump"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="px-3 py-1 sm:px-4 sm:py-2 text-lg sm:text-2xl md:text-4xl rounded-md hover:bg-[#e20d1b] border border-[#e20d1b] font-snickers">
+          Buy Stonkers
+        </button>
+      </a>
     </div>
   );
 }
